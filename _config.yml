@@ -86,8 +86,8 @@ pageviews:
 #
 # Available options:
 #
-#       light — Use the light color scheme
-#       dark — Use the dark color scheme
+#        light — Use the light color scheme
+#        dark — Use the dark color scheme
 #
 theme_mode: # [light | dark]
 
@@ -224,16 +224,20 @@ jekyll-archives:
     category: /categories/:name/
 
 # ------------------
-# Navigation
+# Sidebar Navigation (FIXED)
 # ------------------
-# Si no usas tabs.yml (que nos da problemas), usa esta configuración:
-nav:
-  home:
+# Esta es la sintaxis correcta para que el menú lateral (sidebar) se cargue.
+sidebar:
+  nav:
     - title: Home
       url: /
+      icon: fas fa-home
     - title: Categorías
       url: /categories/
+      icon: fas fa-stream
     - title: Etiquetas
       url: /tags/
+      icon: fas fa-tags
     - title: Acerca de
       url: /about/
+      icon: fas fa-info-circle
