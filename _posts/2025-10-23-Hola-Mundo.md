@@ -6,7 +6,7 @@
 layout: post
 title: "¡Hola Mundo! Bienvenida"
 # La fecha debe coincidir con el nombre del archivo (YYYY-MM-DD)
-date: 2025-10-23 09:00:00 -0600
+date: 2025-10-23 10:00:00
 
 author: JakiNet # Tu nombre de autor
 categories: [ Introduccion, Ciberseguridad, Hacking ] # Categorías
@@ -16,7 +16,7 @@ toc: true # Activa la tabla de contenidos
 mermaid: true # Opcional: Si vas a usar diagramas
 
 # Opcional: Para una imagen destacada
-image: /assets/img/jaki.jpg 
+image: /assets/img/jaki.png 
 
 # ==========================================================
 ---
