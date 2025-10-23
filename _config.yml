@@ -222,3 +222,18 @@ jekyll-archives:
   permalinks:
     tag: /tags/:name/
     category: /categories/:name/
+
+# ------------------
+# Navigation
+# ------------------
+# Si no usas tabs.yml (que nos da problemas), usa esta configuración:
+nav:
+  home:
+    - title: Home
+      url: /
+    - title: Categorías
+      url: /categories/
+    - title: Etiquetas
+      url: /tags/
+    - title: Acerca de
+      url: /about/
