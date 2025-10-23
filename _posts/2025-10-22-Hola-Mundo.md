@@ -21,7 +21,7 @@ image: /assets/img/jaki.png
 # ==========================================================
 ---
 
-# 🚀 Inauguración: Un Viaje a la Ciberseguridad Práctica
+# 🚀 Inicio:
 
 ¡Bienvenidos a mi nuevo espacio dedicado a la **Ciberseguridad**! Soy Jaki, un joven entuciasta y apasionado de la ciberseguridad y este blog nace con un propósito claro: ser un repositorio de conocimiento útil y directo.
 
