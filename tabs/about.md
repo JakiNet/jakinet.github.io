@@ -1,8 +1,9 @@
 ---
-# the default layout is 'page'
+layout: page
+title: About
 icon: fas fa-info-circle
 order: 4
-permalink: /tags/
+permalink: /about/
 ---
-
 `Hello_World I'm Jaki.`
+# Aquí puedes escribir tu biografía real
