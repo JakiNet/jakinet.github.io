@@ -14,8 +14,13 @@
   url: /tags/
   icon: fas fa-tags
   order: 3
-
+  
+- title: Archives
+  url: /archives/
+  icon: fas fa-archive
+  order: 4
+  
 - title: About
   url: /about/
   icon: fas fa-info-circle
-  order: 4
+  order: 5
