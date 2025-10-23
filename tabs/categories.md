@@ -1,5 +1,6 @@
 ---
-layout: categories
-icon: fas fa-stream
-order: 1
+layout: tags
+title: Tags
+icon: fas fa-tags
+permalink: /tags/  # <--- ESTA LÍNEA ES CLAVE
 ---
