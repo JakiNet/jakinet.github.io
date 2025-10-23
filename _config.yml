@@ -27,7 +27,7 @@ url: "https://jakinet.github.io"
 baseurl: ""
 
 github:
-  username: github_username # change to your GitHub username
+  username: JakiNet # change to your GitHub username
 
 twitter:
   username: twitter_username # change to your Twitter username
