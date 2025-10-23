@@ -1,0 +1,21 @@
+# _data/tabs.yml
+
+- title: Home
+  url: /
+  icon: fas fa-home
+  order: 1
+  
+- title: Categories
+  url: /categories/
+  icon: fas fa-stream
+  order: 2
+
+- title: Tags
+  url: /tags/
+  icon: fas fa-tags
+  order: 3
+
+- title: About
+  url: /about/
+  icon: fas fa-info-circle
+  order: 4
