@@ -1,6 +1,6 @@
 ---
-layout: tags
-title: Tags
-icon: fas fa-tags
-permalink: /tags/  # <--- ESTA LÍNEA ES CLAVE
+layout: categories
+title: Categories
+icon: fas fa-stream
+permalink: /categories/
 ---
