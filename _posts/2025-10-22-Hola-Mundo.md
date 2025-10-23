@@ -4,7 +4,7 @@
 # ==========================================================
 
 layout: post
-title: "¡Hola Mundo! Bienvenida"
+title: "¡Hola Mundo! Bienvenid@"
 # La fecha debe coincidir con el nombre del archivo (YYYY-MM-DD)
 date: 2025-10-22 10:00:00
 
