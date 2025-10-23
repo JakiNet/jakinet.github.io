@@ -165,9 +165,9 @@ kramdown:
       start_line: 1
 
 collections:
-  tabs:
-    output: true
-    sort_by: order
+  tabs:
+    output: true
+    sort_by: order
 
 defaults:
   - scope:
@@ -223,21 +223,3 @@ jekyll-archives:
     tag: /tags/:name/
     category: /categories/:name/
 
-# ------------------
-# Sidebar Navigation (FIXED)
-# ------------------
-# Esta es la sintaxis correcta para que el menú lateral (sidebar) se cargue.
-sidebar:
-  nav:
-    - title: Home
-      url: /
-      icon: fas fa-home
-    - title: Categorías
-      url: /categories/
-      icon: fas fa-stream
-    - title: Etiquetas
-      url: /tags/
-      icon: fas fa-tags
-    - title: Acerca de
-      url: /about/
-      icon: fas fa-info-circle

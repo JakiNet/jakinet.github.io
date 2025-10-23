@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Sobre Mí
+title: Acerca de
+icon: fas fa-info-circle
 permalink: /about/
 ---
 
-# ¡Hola! Soy Jaki
+# Sobre Mí
 
 Este es mi espacio personal de ciberseguridad. Aquí publico mis writeups, análisis y recursos. ¡Un placer tenerte por aquí!
