@@ -4,7 +4,7 @@ title: "🚀 JakiSnippets: El fin de las cheatsheets infinitas en el Pentesting"
 date: 2025-12-29 10:00:00 -0000
 categories: [Herramientas]
 tags: [python, hacking, pentesting, opensource]
-author: Jaki
+author: <p>By <a href="https://github.com/JakiNet"><strong>Jaki</strong></a></p>
 image: /assets/img/unnamed.jpg
 ---
 
@@ -37,7 +37,7 @@ Para desplegar el arsenal en tu sistema Linux/Kali, ejecuta los siguientes coman
 
 ```bash
 # Clonar el repositorio oficial
-git clone [https://github.com/JakiNet/JakiSnippets.git](https://github.com/JakiNet/JakiSnippets.git)
+git clone https://github.com/JakiNet/JakiSnippets.git
 
 # Entrar al directorio
 cd JakiSnippets
@@ -67,8 +67,8 @@ Puedes añadir tus propios comandos personalizados que vayas descubriendo en tus
 Este proyecto es personal y para la comunidad. Si tienes "one-liners" potentes o quieres mejorar el código del motor de búsqueda, los Pull Requests son más que bienvenidos.
 🔗 Enlaces de Interés:
 
-    Repositorio: https://github.com/JakiNet/JakiSnippets
+   Repositorio: <https://github.com/JakiNet/JakiSnippets>
 
-    Reportar Bugs: Issues de JakiSnippets
+   Reportar Bugs: Issues de JakiSnippets
 
 ¡Gracias por leer! Si te ha sido útil, no olvides dejar una ⭐ en el repositorio. ¡Happy Hacking! :)
