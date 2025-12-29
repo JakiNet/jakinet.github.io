@@ -8,7 +8,7 @@ title: "¡Hola Mundo! Bienvenid@"
 # La fecha debe coincidir con el nombre del archivo (YYYY-MM-DD)
 date: 2025-10-22 10:00:00
 
-author: JakiNet # Tu nombre de autor
+author: "Jaki" # Tu nombre de autor
 categories: [ Introduccion, Ciberseguridad, Hacking ] # Categorías
 tags: [ writeup, cheat_sheet, pentesting, inicio, bienvenida ] # Etiquetas o palabras clave
 
