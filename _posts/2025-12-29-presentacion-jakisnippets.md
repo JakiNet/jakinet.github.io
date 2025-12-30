@@ -29,7 +29,9 @@ A diferencia de un simple archivo de texto, **JakiSnippets** ofrece una interfaz
 | **📂 Extensible** | Base de datos en JSON totalmente editable. |
 | **🚀 Instalador Global** | Un solo script para tener el comando `jaki` en todo el sistema. |
 
-image: /assets/img/jakisnippets-terminal.jpg
+Aquí puedes ver la herramienta en acción:
+
+![Banner de JakiSnippets](/assets/img/jakisnippets-terminal.jpg)
 
 ---
 
