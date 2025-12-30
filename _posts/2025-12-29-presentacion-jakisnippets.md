@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "🚀 JakiSnippets: El fin de las cheatsheets infinitas en el Pentesting"
+title: "JakiSnippets: El fin de las cheatsheets infinitas en el Pentesting"
 date: 2025-12-29 10:00:00 -0000
 categories: [Herramientas]
 tags: [python, hacking, pentesting, opensource]
