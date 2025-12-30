@@ -29,6 +29,8 @@ A diferencia de un simple archivo de texto, **JakiSnippets** ofrece una interfaz
 | **📂 Extensible** | Base de datos en JSON totalmente editable. |
 | **🚀 Instalador Global** | Un solo script para tener el comando `jaki` en todo el sistema. |
 
+image: /assets/img/'WhatsApp Image 2025-12-30 at 3.22.13 AM.jpeg'
+
 ---
 
 ## 📥 Guía de Instalación
