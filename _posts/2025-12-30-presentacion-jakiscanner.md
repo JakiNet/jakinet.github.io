@@ -34,7 +34,7 @@ Muchos scripts de seguridad terminan perdidos en carpetas de descargas o generan
 Hemos simplificado el despliegue para que sea una experiencia de "un solo paso". El instalador se encarga de todo: desde la limpieza de versiones antiguas hasta la configuración de dependencias.
 
 ```bash
-git clone [https://github.com/JakiNet/jakiscanner](https://github.com/JakiNet/jakiscanner)
+git clone https://github.com/JakiNet/jakiscanner
 cd jakiscanner
 chmod +x install.sh
 sudo ./install.sh
