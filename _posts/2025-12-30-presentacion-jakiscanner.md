@@ -18,6 +18,23 @@ En el ecosistema de **JakiNet**, creemos que una herramienta de ciberseguridad n
 
 Muchos scripts de seguridad terminan perdidos en carpetas de descargas o generan errores de permisos al ejecutarse. JakiScanner rompe con eso mediante una arquitectura de instalación profesional.
 
+## Guía de Usuario
+
+JakiScanner es una potente herramienta de auditoría de red escrita en Python, diseñada para realizar escaneos de puertos TCP de forma rápida y eficiente. Utiliza técnicas de multihilo (multithreading) y reconocimiento pasivo para identificar servicios y sistemas operativos.
+🚀 Características Principales
+
+    Escaneo Multihilo: Capacidad de lanzar hasta 500 hilos simultáneos para cubrir los 65,535 puertos en segundos.
+
+    Detección de SO: Identifica si el objetivo es Linux o Windows analizando el TTL (Time To Live) de los paquetes ICMP.
+
+    Banner Grabbing: Intenta extraer la versión del software que corre en los puertos abiertos (ej. Apache, OpenSSH).
+
+    Base de Datos Masiva: Diccionario integrado con más de 100 servicios comunes y especializados.
+
+    Reportes Automáticos: Opción para guardar los resultados en formato de texto plano para documentación.
+
+    Control de Velocidad: 3 perfiles de intensidad ajustables según la estabilidad de la red.
+
 ### Puntos Clave de la Ingeniería:
 
 | Característica | Descripción |
@@ -46,6 +63,26 @@ sudo ./install.sh
 
 Una vez instalado, JakiScanner se convierte en una extensión de tu terminal. No más ./jakiscanner.py. Simplemente lanza:
 $>**jakiscanner**
+
+Opciones del Menú:
+
+    Rápido (Top 100): Escanea los puertos más críticos para un reconocimiento veloz.
+
+    Estándar (Top 1024): Cubre todos los puertos conocidos y servicios de sistema.
+
+    Full (65535): Escaneo completo de todo el rango de puertos TCP.
+
+    Personalizado: Permite definir un rango específico (ej: 80,443,8080 o 1-5000).
+
+Perfiles de Velocidad:
+
+Al elegir el escaneo Full o Personalizado, podrás seleccionar la intensidad:
+
+    Lento (50 hilos): Ideal para redes inestables o para ser más sigiloso.
+
+    Normal (200 hilos): El equilibrio perfecto entre velocidad y precisión.
+
+    Rápido (500 hilos): Máxima potencia para redes locales o servidores robustos.
 
 ## 🌐 El Futuro: JakiNet Infrastructure
 
