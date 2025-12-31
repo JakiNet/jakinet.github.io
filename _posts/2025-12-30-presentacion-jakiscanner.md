@@ -84,6 +84,8 @@ Al elegir el escaneo Full o Personalizado, podrás seleccionar la intensidad:
 
     Rápido (500 hilos): Máxima potencia para redes locales o servidores robustos.
 
+![Banner JakiScanner](/assets/img/korman.png)
+
 ## 🌐 El Futuro: JakiNet Infrastructure
 
 Este proyecto marca el inicio de una serie de herramientas que compartirán esta misma temática visual y estructural. Queremos elevar la calidad del software open-source para la comunidad de habla hispana, priorizando la facilidad de uso y la estética profesional.
