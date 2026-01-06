@@ -57,8 +57,9 @@ El peligro: Si escribes un script para Bash pero el usuario usa Zsh o Fish, el s
 
 *"Nunca te quedes con la superficie. En este mundo, quien entiende cómo funciona el Kernel, domina la terminal."*
 
-image: /assets/img/bash1.png
-image: /assets/img/bash2.png
+![Banner captura](/assets/img/bash1.png)
+![Banner captura](/assets/img/bash2.png)
+
 
 ## 2. Variables y Paso de Argumentos
 
