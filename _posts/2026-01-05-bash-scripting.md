@@ -91,6 +91,7 @@ Para complementar esta guía, he preparado una serie de tutoriales donde resolve
 **Esta guía rápida resume los comandos y estructuras más utilizados en la automatización con Bash.**
 
 # 1. Variables y Argumentos Especiales
+
 ```bash
 |Variable   |Descripción
 _____________________________________________________________
@@ -142,6 +143,7 @@ else
     # código
 fi
 ```
+
 **Bucle For**
 ```Bash
 
@@ -149,6 +151,7 @@ for item in {1..5}; do
     echo "Iteración: $item"
 done
 ```
+
 **Bucle While**
 ```Bash
 
@@ -156,6 +159,7 @@ while [ condition ]; do
     # código
 done
 ```
+
 # 4. Redirección y Flujos
 ```bash
 |Operador	|Acción
