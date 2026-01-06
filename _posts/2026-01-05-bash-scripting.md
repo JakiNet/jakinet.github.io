@@ -22,7 +22,43 @@ Todo script profesional debe comenzar con el **Shebang**. Esta línea le indica 
 #!/bin/bash
 ```
 
+---
+
+## 🛑 El Gran Debate (Jaki VS Korman): ¿Realmente el Kernel lee el Shebang?
+
+Recientemente surgió una duda interesante en la comunidad: **"Si el carácter `#` es un comentario, ¿entonces el sistema lo ignora por completo?"**. La respuesta corta es NO, y entender el porqué te convertirá en un mejor desarrollador de herramientas de seguridad.
+
+### 1. El "Magic Number" (0x23 0x21)
+Para un lenguaje como Bash o Python, todo lo que sigue al `#` es ruido. Pero para el **Kernel de Linux**, los primeros bytes de un archivo son su identidad. 
+
+Cuando ejecutas un archivo, el Kernel busca el **Magic Number**. En el caso del shebang, busca los bytes hexadecimales `0x23` (`#`) y `0x21` (`!`). Si los encuentra, el Kernel sabe que no es un archivo binario (como un `.exe`), sino un script que requiere un intérprete.
+
+### 2. Evidencia en el Código Fuente de Linux
+Si tienes dudas, la verdad está en el código. En el archivo fuente del Kernel **`fs/binfmt_script.c`**, específicamente en la función `load_script` (alrededor de la línea 25), el sistema operativo hace una comprobación explícita:
+
+```c
+// Si el archivo no empieza con #!, el Kernel devuelve un error de ejecución
+if ((bprm->buf[0] != '#') || (bprm->buf[1] != '!'))
+    return -ENOEXEC;
+```
 Sin esta línea, el sistema intentará ejecutar el script con el shell por defecto del usuario (que podría ser sh o zsh), lo que suele causar errores de compatibilidad.
+
+### 3. ¿Por qué a veces funciona sin Shebang?
+
+Si no pones el shebang, el script puede ejecutarse, pero no es gracias al Kernel, sino a tu Shell (Plan B).
+
+    Cuando el Kernel falla al no encontrar el shebang, le devuelve un error a tu terminal.
+
+    Tu terminal (Bash o Zsh), en un intento de ser amable, intenta ejecutar el archivo línea por línea.
+
+El peligro: Si escribes un script para Bash pero el usuario usa Zsh o Fish, el script fallará o se comportará de forma errática. El shebang garantiza que tu código siempre se ejecute en el entorno para el que fue diseñado.
+
+    Lección aprendida: En ciberseguridad, los detalles "bajo el capó" importan. El shebang no es un adorno; es un contrato entre tu código y el Sistema Operativo para asegurar la portabilidad y evitar errores silenciosos.
+
+*"Nunca te quedes con la superficie. En este mundo, quien entiende cómo funciona el Kernel, domina la terminal."*
+
+image: /assets/img/bash1.png
+image: /assets/img/bash2.png
 
 ## 2. Variables y Paso de Argumentos
 
