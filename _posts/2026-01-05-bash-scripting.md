@@ -4,7 +4,7 @@ title: "Bash Scripting: Fundamentos y Automatización para el Mundo Real"
 date: 2026-01-05 12:00:00 
 categories: [programación, linux, hacking]
 tags: [bash, scripting, automatización]
-author: "Jaki"
+Author: "Jaki"
 image: /assets/img/bashscript.png
 ---
 
@@ -82,15 +82,16 @@ Aprende Bandit en Video
 
 Para complementar esta guía, he preparado una serie de tutoriales donde resolvemos estos retos paso a paso, aplicando los conceptos de scripting vistos anteriormente:
 
-    (https://www.youtube.com/watch?v=0Tj_G53rtBs&list=PLgvdZyIX3fRz_q682LzItYna6ezQapISd)
+<https://www.youtube.com/watch?v=0Tj_G53rtBs&list=PLgvdZyIX3fRz_q682LzItYna6ezQapISd>
 
 *Conclusión*
 
-##⚡ Bash Scripting: Cheat Sheet Essentials
+## ⚡ Bash Scripting: Cheat Sheet Essentials
 
 **Esta guía rápida resume los comandos y estructuras más utilizados en la automatización con Bash.**
 
 # 1. Variables y Argumentos Especiales
+```bash
 |Variable   |Descripción
 _____________________________________________________________
 |$0,        |Nombre del script
@@ -99,12 +100,12 @@ _____________________________________________________________
 |$@,        |Todos los argumentos como una lista
 |$?,        |Estado de salida del último comando (0 = éxito)
 |$$,        |PID (ID de proceso) del script actual
-
+```
 # 2. Pruebas de Condición (Tests)
  
 Las condiciones se evalúan entre corchetes [ ]. ¡No olvides los espacios!
 **Archivos**
-
+```bash
     -f archivo: True si el archivo existe y es regular.
 
     -d carpeta: True si el directorio existe.
@@ -128,7 +129,7 @@ Las condiciones se evalúan entre corchetes [ ]. ¡No olvides los espacios!
     -lt: Menor que (less than)
 
     -gt: Mayor que (greater than)
-
+```
 # 3. Estructuras de Control
 **Condicional If/Else**
 ```bash
@@ -156,6 +157,7 @@ while [ condition ]; do
 done
 ```
 # 4. Redirección y Flujos
+```bash
 |Operador	|Acción
 _______________________________________________________________
 | >	        |Redirige salida estándar (sobrescribe archivo)
@@ -163,6 +165,6 @@ _______________________________________________________________
 |2>	        |Redirige errores estándar
 |&>     	|Redirige tanto salida como errores
 |/dev/null	|El "agujero negro" de Linux (descarta la salida)
-
-Gracias por leer, espero hayas aprendido al igual que yop :)
-SaludOS de Jaki
+```
+**Gracias por leer, espero hayas aprendido al igual que yop :)**
+**SaludOS de Jaki**
