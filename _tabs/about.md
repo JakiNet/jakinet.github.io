@@ -7,7 +7,7 @@ permalink: /about/
 
 # $ whoami | SaludOS AmigOS
 
-> ** Soy Jaki :D**
+> **Soy Jaki :D**
 > `Ethical Hacking Enthusiast | Web Sec | Darkhub Community | Ingeniero en Sistemas Computacionales`
 
 ¡Hola! Soy Jaki. Mi camino en la ciberseguridad empezó por la curiosidad de entender cómo funcionan las cosas por dentro (y cómo romperlas) para asi mantener seguros a los sistemas. 
