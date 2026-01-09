@@ -2,8 +2,8 @@
 layout: post
 title: "Identificando Sistemas Operativos mediante TTL: Presentando JakiTTL"
 date: 2026-01-09 12:00:00 -0000
-categories: [ciberseguridad, python]
-tags: [hacking, ttl, herramienta]
+categories: [Herramientas]
+tags: [python, pentesting, opensource]
 Author: "Jaki"
 image: /assets/img/ttl.png
 ---

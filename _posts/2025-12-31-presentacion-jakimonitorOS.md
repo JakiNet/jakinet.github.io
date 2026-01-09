@@ -3,7 +3,8 @@ layout: post
 title: "Lanzamiento de JakiMonitor OS: El Monitor Definitivo para Kali Linux"
 date: 2025-12-31 12:00:00 -0500
 categories: [Herramientas]
-tags: [python, hacking, pentesting]
+tags: [pentesting, opensource]
+Author: "Jaki"
 image: /assets/img/jakimonitorOS.png
 ---
 

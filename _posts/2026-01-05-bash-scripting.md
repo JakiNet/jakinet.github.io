@@ -2,8 +2,8 @@
 layout: post
 title: "Bash Scripting: Fundamentos y Automatización para el Mundo Real"
 date: 2026-01-05 12:00:00 
-categories: [programación, linux, hacking]
-tags: [bash, scripting, automatización]
+categories: [Linux, Ciberseguridad]
+tags: [bash, scripting]
 Author: "Jaki"
 image: /assets/img/bashscript.png
 ---

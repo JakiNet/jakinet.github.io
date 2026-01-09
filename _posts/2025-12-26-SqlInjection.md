@@ -3,7 +3,7 @@ layout: post
 title: "SQL Injection: Apuntes y Recursos"
 date: 2025-12-26
 categories: [Ciberseguridad, Hacking]
-tags: [sql, pentesting, web, portswigger]
+tags: [sql, pentesting, portswigger]
 Author: "Jaki"
 image: /assets/img/Gemini_Generated_Image_hqit0ihqit0ihqit.png
 

@@ -3,7 +3,7 @@ layout: post
 title: "JakiScanner: El nuevo estándar de herramientas para Kali Linux"
 date: 2025-12-30 12:00:00 -0000
 categories: [Herramientas]
-tags: [python, hacking, pentesting]
+tags: [python, pentesting, opensource]
 Author: "Jaki"
 image: /assets/img/portada.png
 ---
