@@ -5,7 +5,7 @@ date: 2026-01-12 12:00:00 -0500
 categories: [Herramientas]
 tags: [bash, pentesting, opensource]
 Author: "Jaki"
-img: /assets/img/jakibandit.png
+image: /assets/img/jakibandit.png
 ---
 
 ¡Hola a todos!
