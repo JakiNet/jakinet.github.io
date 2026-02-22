@@ -25,7 +25,9 @@ nmap -sV -sC -T4 <IP_VÍCTIMA>
     Puerto 22 (SSH): Servicio OpenSSH (Para persistencia posterior).
 
 Al explorar el puerto 80, encontramos un formulario que permite la subida de imágenes y un archivo info.php expuesto.
+
 ![imagen Ilustrativa](/assets/img/infophp.png)
+
 ## 🔍 2. Reconocimiento Web y Limitaciones de PHP
 
 Al inspeccionar el phpinfo(), detectamos que el servidor tiene implementada la directiva disable_functions, bloqueando los vectores comunes de ejecución de comandos:
@@ -81,7 +83,9 @@ GIF89a;
 // Código generado por Chankro...
 ?>
 ```
+
 ![Imagen Ilustrativa](/assets/img/magicbytes.png)
+
 **Preparando la recepción (Netcat)**
 
 Iniciamos un oyente en nuestra máquina atacante para capturar la shell:
@@ -105,7 +109,9 @@ Subimos el archivo exploit.php a través del formulario web. Al acceder directam
 http://IP_VÍCTIMA/uploads/exploit.php
 
 El servidor procesa el PHP, activa la variable LD_PRELOAD, ejecuta mail() y nuestro script de bash nos devuelve la conexión.
+
 ![Imagen Ilustrativa](/assets/img/rev_shell.png)
+
 **Estabilización de la TTY**
 
 Una vez recibida la shell en Netcat, la estabilizamos para tener una terminal funcional:
