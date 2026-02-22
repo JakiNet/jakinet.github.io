@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Bypassing PHP disable_functions con Chankro: TryHackMe Writeup"
+title: "Bypass Disable Functions — TryHackMe Writeup"
 date: 2026-02-22
 Author: Jaki
 categories: [Writeups, Pentesting-Web]
