@@ -42,6 +42,17 @@ Sin embargo, observamos dos factores críticos:
 
 Para evadir estas restricciones, utilizaremos Chankro. Esta herramienta crea un archivo PHP que usa putenv() para definir la variable de entorno LD_PRELOAD. Al invocar mail(), el sistema carga una librería .so maliciosa antes que cualquier otra, permitiendo la ejecución de código.
 
+# Instalación de la Herramienta:
+
+Dado que **Chankro** no se encuentra en los repositorios oficiales de `apt`, debemos clonarlo directamente desde su repositorio oficial en GitHub. Es importante recordar que esta herramienta está diseñada para ejecutarse con **Python 2**.
+
+```bash
+# Clonamos el repositorio oficial
+git clone https://github.com/TarlogicSecurity/Chankro.git
+
+# Entramos al directorio
+cd chankro
+```
 **Paso A: El script de Reverse Shell (rev_shell.sh)**
 
 Preparamos el comando que queremos que el servidor ejecute:
