@@ -9,7 +9,7 @@ image: /assets/img/1erwriteup.png
 ---
 
 En este post, exploraremos cómo evadir restricciones severas en configuraciones de PHP dentro de entornos Linux. Veremos el flujo completo: desde el escaneo inicial hasta la obtención de una Reverse Shell mediante la técnica de secuestro de `LD_PRELOAD`.
-
+En este writeup vamos a resolver la máquina **[bypassdisablefunctions](https://tryhackme.com/room/bypassdisablefunctions)** de TryHackMe.
 ## 🎯 1. Enumeración de Servicios
 
 Todo proceso de pentesting comienza con un escaneo de puertos para identificar la superficie de ataque:
