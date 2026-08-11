@@ -8,7 +8,7 @@ tags: [pentesting, killchain]
 image: /assets/img/killchain.png
 ---
 
-Un ciberataque no es un evento instantáneo, sino un proceso metódico por fases. 
+Un ciberataque no es un evento instantáneo, sino un proceso metódico por fases.<br> 
 Entender el modelo **Cyber Kill Chain** permite comprender cómo operan los atacantes y cómo frenarlos: **romper un solo eslabón frustra el ataque completo.**
 
 ---
@@ -48,6 +48,6 @@ Entender el modelo **Cyber Kill Chain** permite comprender cómo operan los atac
 * **Documentación:**
   * [Lockheed Martin - Cyber Kill Chain](https://www.lockheedmartin.com/en-us/capabilities/cyber/cyber-kill-chain.html)
 
-*Nota: Este artículo tiene fines estrictamente educativos para promover la concienciación y la ciberseguridad defensiva.*
-Gracias por leer :D
+*Nota: Este artículo tiene fines estrictamente educativos para promover la concienciación y la ciberseguridad defensiva.*<br>
+Gracias por leer :D<br>
 Atte: Jaki
