@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Acerca de
+title: $ whoami
 icon: fas fa-info-circle
 permalink: /about/
 ---
@@ -8,8 +8,6 @@ permalink: /about/
 <div align="center">
   <img src="/assets/img/perfil.png" alt="Foto de Perfil" width="120" style="border-radius: 50%;">
 </div>
-
-# $ whoami | SaludOS
 
 `Soy Jaki` **Ethical Hacking Enthusiast**
 
